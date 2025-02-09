@@ -1,0 +1,10 @@
+services:
+  postgres:
+    image: postgres:latest
+    container_name: bosscrm_postgres
+    environment:
+      POSTGRES_PASSWORD: postgres
+    volumes:
+      - ./database/init:/docker-entrypoint-initdb.d
+    ports:
+      - 5432:5432

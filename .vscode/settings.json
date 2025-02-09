@@ -12,5 +12,8 @@
 	},
 	"[yaml]": {
 		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[sql]": {
+		"editor.defaultFormatter": "biomejs.biome"
 	}
 }
